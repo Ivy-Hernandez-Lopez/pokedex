@@ -53,7 +53,7 @@ const PokedexPage = () => {
     <div className='pokedex'>
       <section className='poke_h_container'>
         <hr />
-        <img className='poke_header_img' src="./public/assets/pokedexPageHeader.svg" alt="POKEDEXpage" />
+        <img className='poke_header_img' src="./assets/pokedexPageHeader.svg" alt="POKEDEXpage" />
         <img className='poke_pokedex' src="./assets/pokedex.svg" alt="POKEDEX"/>
       </section>
       <section className='poke_header'>
