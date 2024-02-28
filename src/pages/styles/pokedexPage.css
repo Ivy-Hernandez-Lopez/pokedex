@@ -1,0 +1,110 @@
+.pokedex {
+    padding-bottom: 25px;
+    min-height: inherit;
+}
+.poke_h_container{
+    position: relative;
+    margin-bottom: 170px;
+}
+.poke_h_container hr{
+    border-color: #dd1a1a;
+}
+.poke_header_img{
+    max-width: 100%;
+    position: absolute;
+    z-index: 2;
+}
+.poke_pokedex{
+    z-index: 10;
+    position: absolute;
+    max-height: 50px;
+    margin: 30px 0 0 50px;
+}
+.poke_header{
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+    gap: 10px;
+}
+.poke_header h3 {
+    text-align: center;
+}
+.pokedex h3 span{
+    color: #fe1936;
+}
+.poke_search{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.poke_search form{
+    margin-top: 20px;
+    box-shadow: -5px 5px 7px 0px rgba(0, 0, 0, 0.267);
+    max-width: fit-content;
+}
+.poke_search input, 
+button {
+    display: inline-block;
+    font-family: inherit;
+    cursor: pointer;
+    border: none;
+    height: 2rem;
+    padding: 0 15px 0 15px;
+    font-size: 1rem;
+    height: 45px;
+}
+.poke_search button{
+    background-color: #d93f3f;
+    color: white;
+}
+.poke_search div{
+    margin-top: 20px;
+    box-shadow: -5px 5px 7px 0px rgba(0, 0, 0, 0.267);
+}
+.poke_search div span{
+    padding: 0 20px;
+}
+.poke_search select {
+    display: inline-block;
+    font-family: inherit;
+    cursor: pointer;
+    border: none;
+    height: 2rem;
+    padding: 0 35px 0 35px;
+    font-size: 1rem;
+    height: 45px;
+    margin-top: 20px;
+    box-shadow: -5px 5px 7px 0px rgba(0, 0, 0, 0.267);
+}
+.poke_container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+.pagination_bottom{
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    border: none;
+    height: 2rem;
+    width: 100%;
+    padding: 0 15px 0 15px;
+    font-size: 1rem;
+    height: 45px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.pagination_bottom div{
+    box-shadow: -5px 5px 7px 0px rgba(0, 0, 0, 0.267);
+}
+.pagination_bottom div button{
+    background-color: #d93f3f;
+    color: white;
+}
+.pagination_bottom div span{
+    padding: 0 20px;
+}
+
+
+    

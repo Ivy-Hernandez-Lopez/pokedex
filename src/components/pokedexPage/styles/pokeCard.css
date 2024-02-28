@@ -1,0 +1,239 @@
+.poke_card{
+    background-color: rgba(245, 238, 238, 0.644);
+    color: #1a1a1a;    
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 25px;
+    border-bottom: 5px solid rgba(177, 167, 167, 0.76);
+    cursor: pointer;
+    position: relative;
+    gap: 5px;
+}
+.poke_card:hover{
+    transform: scale(1.05);
+}
+.poke_card div{
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    border-radius: 20px 20px 0 0;
+}
+.poke_card figure{
+    position: relative;
+    width: 150px;
+    z-index: 10;
+}
+h3::first-letter{
+    text-transform: uppercase;
+}
+.poke_types{
+    display: flex;
+    gap: 5px;
+}
+.poke_card hr{
+    width: 85%;
+}
+.poke_stats{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    padding: 15px;
+    width: 85%;
+    gap: 10px;
+}
+.poke_stats li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+li::first-letter{
+    text-transform: uppercase;
+}
+.slot2::before{
+    content: '/';
+}
+
+/* -- colores de fondo dinamicos para las cards -- */
+
+.grass{
+    background: linear-gradient(#36c9c4, #d5eeb2);
+    border-top: 5px solid #b4dbb9;
+    border-left: 5px solid #b4dbb9;
+    border-right: 5px solid #b4dbb9;
+}
+.grassPokeCard{
+    color: #416460;
+    font-size: x-large;
+}
+.fire{
+   background: linear-gradient(#e74117, #f7be44);
+    border-top: 5px solid #e68423;
+    border-left: 5px solid #e68423;
+    border-right: 5px solid #e68423;
+}
+.firePokeCard{
+    color: #c56647;
+    font-size: x-large;
+}
+.water{
+    background: linear-gradient(#064eac, #81ade6);
+    border-top: 5px solid #6aabfe;
+    border-left: 5px solid #6aabfe;
+    border-right: 5px solid #6aabfe;
+}
+.waterPokeCard{
+    color: #345888;
+    font-size: x-large;
+}
+.bug{
+    background: linear-gradient(#03a300, #8ae988);
+    border-top: 5px solid #65bf5c;
+    border-left: 5px solid #65bf5c;
+    border-right: 5px solid #65bf5c;
+}
+.bugPokeCard{
+    color: #246e23;
+    font-size: x-large;
+}
+.normal{
+    background: linear-gradient(#5f1826, #dd7a8e);
+    border-top: 5px solid #825861;
+    border-left: 5px solid #825861;
+    border-right: 5px solid #825861;
+}
+.normalPokeCard{
+    color: #5e3f45;
+    font-size: x-large;
+}
+.poison{
+    background: linear-gradient(#47028b, #af72ec);
+    border-top: 5px solid #72459d;
+    border-left: 5px solid #72459d;
+    border-right: 5px solid #72459d;
+}
+.poisonPokeCard{
+    color: #4f3c63;
+    font-size: x-large;
+}
+.fighting{
+    background: linear-gradient(#a72201, #fa8467);
+    border-top: 5px solid #a8462d;
+    border-left: 5px solid #a8462d;
+    border-right: 5px solid #a8462d;
+}
+.fightingPokeCard{
+    color: #96442f;
+    font-size: x-large;
+}
+.ground{
+    background: linear-gradient(#774700, #fdbb59);
+    border-top: 5px solid #734a0b;
+    border-left: 5px solid #734a0b;
+    border-right: 5px solid #734a0b;
+}
+.groundPokeCard{
+    color: #5e4521;
+    font-size: x-large;
+}
+.ghost{
+    background: linear-gradient(#0d145c, #727aff);
+    border-top: 5px solid #3b3f82;
+    border-left: 5px solid #3b3f82;
+    border-right: 5px solid #3b3f82;
+}
+.ghostPokeCard{
+    color: #3c4185;
+    font-size: x-large;
+}
+.rock{
+    background: linear-gradient(#3c3c41, #a0a0be);
+    border-top: 5px solid #8b8b8b;
+    border-left: 5px solid #8b8b8b;
+    border-right: 5px solid #8b8b8b;
+}
+.rockPokeCard{
+    color: #505058;
+    font-size: x-large;
+}
+.dark{
+    background: linear-gradient(#000000, #375f55);
+    border-top: 5px solid #1a1c1c;
+    border-left: 5px solid #1a1c1c;
+    border-right: 5px solid #1a1c1c;
+}
+.darkPokeCard{
+    color: #101615;
+    font-size: x-large;
+}
+.ice{
+    background: linear-gradient(#279dcf, #c6eefd);
+    border-top: 5px solid #84c9e6;
+    border-left: 5px solid #84c9e6;
+    border-right: 5px solid #84c9e6;
+}
+.icePokeCard{
+    color: #4385a1;
+    font-size: x-large;
+}
+.steel{
+    background: linear-gradient(#09130f, #889c96);
+    border-top: 5px solid #6b827a;
+    border-left: 5px solid #6b827a;
+    border-right: 5px solid #6b827a;
+}
+.steelPokeCard{
+    color: #304740;
+    font-size: x-large;
+}
+.dragon{
+    background: linear-gradient(#006977, #9ed6dd);
+    border-top: 5px solid #569ba4;
+    border-left: 5px solid #569ba4;
+    border-right: 5px solid #569ba4;
+}
+.dragonPokeCard{
+    color: #2f5b61;
+    font-size: x-large;
+}
+.fairy{
+    background: linear-gradient(#a30137, #e7739a);
+    border-top: 5px solid #a22a53;
+    border-left: 5px solid #a22a53;
+    border-right: 5px solid #a22a53;
+}
+.fairyPokeCard{
+    color: #a52450;
+    font-size: x-large;
+}
+.electric{
+    background: linear-gradient(#0008a0, #787cd6);
+    border-top: 5px solid #2d34b0;
+    border-left: 5px solid #2d34b0;
+    border-right: 5px solid #2d34b0;
+}
+.electricPokeCard{
+    color: #1d205f;
+    font-size: x-large;
+}
+.psychic{
+    background: linear-gradient(#ff1e1e, #c56868);
+    border-top: 5px solid #e43e3e;
+    border-left: 5px solid #e43e3e;
+    border-right: 5px solid #e43e3e;
+}
+.psychicPokeCard{
+    color: #9b3838;
+    font-size: x-large;
+}
+.flying{
+    background: linear-gradient(#16456b, #268dc6);
+    border-top: 5px solid #0b56a8;
+    border-left: 5px solid #0b56a8;
+    border-right: 5px solid #0b56a8;
+}
+.flyingPokeCard{
+    color: #224f74;
+    font-size: x-large;
+}
